@@ -9,6 +9,7 @@ body {
 }
 body {
   font-family: "Inter", sans-serif;
+  color: #211b12;
   margin: 0;
   padding: 0;
 }
@@ -49,6 +50,7 @@ a {
   width: 100%;
   margin: auto;
 }
+/* NAVBAR */
 .navbar {
   max-width: 870px;
   padding-top: 40px;
@@ -72,7 +74,7 @@ a {
 .nav-link.active {
   font-weight: 700;
 }
-
+/* HEADER */
 .header-accent {
   color: #18abe3;
   display: block;
@@ -93,7 +95,6 @@ a {
   font-size: 48px;
   line-height: 1.25;
   letter-spacing: -0.03em;
-  color: #211b12;
   margin-bottom: 8px;
 }
 .header-heading {
@@ -124,7 +125,6 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color: #211b12;
   display: flex;
   align-items: center;
   padding: 7px 8px;
@@ -135,4 +135,74 @@ a {
   margin-left: 4px;
 }
 
-/* HEADER */
+/* PORTFOLIO */
+
+.section-heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.25;
+  color: #18abe3;
+  letter-spacing: -0.03em;
+  margin-bottom: 32px;
+}
+.cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.card {
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+.card-image {
+  border-radius: 4px;
+}
+.card-text-wrapper {
+  padding: 0 16px;
+}
+.card-title {
+  color: #18abe3;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+  margin-bottom: 17px;
+}
+.tags {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.tag {
+  border: 1px solid #18abe3;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 5px 8px;
+  margin-right: 4px;
+}
+.card-buttons {
+  display: flex;
+  align-items: center;
+}
+.card-button {
+  display: flex;
+  align-items: center;
+  padding: 7px 8px;
+  margin-right: 25px;
+  border-bottom: 2px solid #18abe3;
+}
+.card-button-icon {
+  margin-right: 4px;
+}
+.card-button-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
