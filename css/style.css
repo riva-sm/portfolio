@@ -45,6 +45,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+textarea {
+  resize: none;
+}
 .container {
   max-width: 870px;
   width: 100%;
@@ -205,4 +208,131 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
+}
+/* DEVELOPER */
+.developer {
+  display: flex;
+  align-items: center;
+  padding: 80px 0 20px;
+}
+.developer-photo {
+  width: 360px;
+  height: 440px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.developer-about {
+  margin-left: 55px;
+}
+.developer-hello {
+  font-size: 24px;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  /* margin-bottom: 4px; */
+}
+
+.developer-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+  color: #18abe3;
+  letter-spacing: -0.03em;
+}
+.motto {
+  color: #18abe3;
+  font-size: 24px;
+  line-height: 1.5;
+  display: block;
+  margin-top: 16px;
+}
+
+.developer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+.developer-sign {
+  max-width: 200px;
+  margin-top: 32px;
+}
+
+/* SKILLS */
+.skills {
+  padding: 20px 0;
+}
+.skills-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  margin-bottom: 13px;
+}
+
+/* FEEDBACK */
+
+.feedback {
+  padding: 80px 0 160px;
+}
+.feedback-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+}
+.form-container {
+  max-width: 435px;
+  margin: auto;
+}
+.input-group {
+  position: relative;
+  padding-top: 9px;
+  margin-bottom: 24px;
+}
+
+.input-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #ffffff;
+  color: #83807c;
+  padding: 0 8px;
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.input {
+  border: 3px solid #e0dedc;
+  border-radius: 4px;
+  width: 435px;
+  height: 56px;
+}
+textarea.input {
+  min-height: 140px;
+}
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.send-button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  padding: 7px 8px;
+  border-bottom: 2px solid #18abe3;
+}
+
+.send-text {
+  margin-left: 4px;
 }
