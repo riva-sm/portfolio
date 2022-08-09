@@ -9,9 +9,9 @@
 - PHP
 - Telegram API
 
-[Смотреть здесь](https://riva-sm.github.io/batman/)
+[Смотреть здесь](https://riva-sm.github.io/portfolio/)
 
-[Хостинг](https://riva-sm.github.io/batman/](http://ca81942.tmweb.ru/)
+[Хостинг](http://ca81942.tmweb.ru/)
 
 ![ux-ui](/preview.jpg)
 
