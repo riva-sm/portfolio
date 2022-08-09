@@ -320,9 +320,12 @@ textarea {
   border-radius: 4px;
   width: 435px;
   height: 56px;
+  padding-left: 15px;
 }
 textarea.input {
   min-height: 140px;
+  padding-left: 10px;
+  padding-top: 15px;
 }
 .button-group {
   display: flex;
