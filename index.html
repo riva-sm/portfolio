@@ -256,16 +256,25 @@
         <form action="#" class="form">
           <div class="input-group">
             <label for="username" class="input-label">Имя</label>
-            <input id="email" type="text" class="input" />
+            <input id="email" name="client_name" type="text" class="input" />
           </div>
           <!-- /.input-group -->
           <div class="input-group">
             <label for="email" class="input-label">Email</label>
-            <input id="username" type="email" class="input" />
+            <input
+              id="username"
+              name="client_email"
+              type="email"
+              class="input"
+            />
           </div>
           <div class="input-group">
             <label for="userMessage" class="input-label">Сообщение</label>
-            <textarea id="userMessage" class="input"></textarea>
+            <textarea
+              id="userMessage"
+              name="client_message"
+              class="input"
+            ></textarea>
           </div>
           <!-- /.input-group -->
           <div class="button-group">
@@ -287,5 +296,6 @@
       <p class="footer-text">Сделано с ❤️ в Иркутске</p>
     </footer>
     <!-- /.footer -->
+    <script src="js/main.js"></script>
   </body>
 </html>
